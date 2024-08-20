@@ -3,7 +3,7 @@ name: check build
 on:
   push:
     branches:
-      - [main]
+      - main
 
 jobs:
   test-build:
@@ -11,4 +11,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo "hello world"
-
